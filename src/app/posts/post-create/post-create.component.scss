@@ -1,0 +1,28 @@
+.example-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+button {
+  max-width: 120px;
+}
+mat-spinner {
+  margin: auto;
+}
+.file-picker-container {
+  margin: 10px 0;
+}
+input[type='file'] {
+  visibility: hidden;
+}
+
+.img-preview-container {
+  max-width: 250px;
+  img {
+    max-width: 100%;
+  }
+}
