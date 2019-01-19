@@ -22,6 +22,11 @@ const routes: Routes = [
     path: 'edit/:postId',
     component: PostCreateComponent,
     canActivate: [AuthGuard]
+  },
+  {
+    path: '**',
+    redirectTo: '',
+    pathMatch: 'full'
   }
 ];
 
